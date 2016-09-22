@@ -1,0 +1,315 @@
+
+
+@import 'https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab';
+
+body
+{
+    background-color: #F3F6FA;
+    padding-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Raleway', sans-serif;
+    line-height: initial;
+    color: #25667d;
+}
+
+p {
+	font-family: 'Roboto Slab', serif;
+    line-height: initial;
+    font-size: 18px;
+    line-height: 32px;
+    color: #7C8081;    
+}
+
+.margin-vert
+{
+    margin-top: 93px;
+    margin-bottom: 93px;
+}
+
+.mini-vert
+{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.picFly{
+	-webkit-animation-delay: 4s;
+    animation-delay: 5s;        
+}
+
+.btn-primary {
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid #fff;
+    border-radius: 0px;
+    text-decoration: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    background-color: rgba(0,0,0,0);
+    background-image: none;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    padding: 20px 40px;
+    height: auto;
+    line-height: initial;
+    text-transform: uppercase;
+    font-weight: bold;
+    -moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+    -webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+    -o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+    -ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+    transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+}
+
+.btn-primary:hover
+{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(255,255,255,0.2);
+    border: 2px solid #fff;
+}
+
+.port-entry
+{
+    padding-bottom: 40px;
+}
+
+.port-entry img
+{
+    max-height: 305px;
+}
+
+.port-entry a
+{
+    color: #f6ba32;
+    float: right;
+}
+
+.features-list
+{
+    margin-bottom: 35px;
+}
+
+#home-hero
+{
+    background-image: url('../images/pexels-photo-28221.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+#home-hero-inner
+{
+    background-color: rgba(0,0,0,0.7);
+}
+
+#home-hero-inner p
+{
+    font-size: 20px;
+    font-style: normal;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+#home-hero-inner h1
+{
+    color: #ffffff;
+    line-height: initial;
+    margin-bottom: 0px;
+    padding-top: 60px;
+}
+
+#home-hero-inner h1:before
+{
+    background-color: #f6ba32;
+    content: '';
+    display: block;
+    height: 3px;
+    margin: 0 0 10px 0;
+    position: relative;
+    width: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-hero-inner h1:after
+{
+    background-color: #f6ba32;
+    content: '';
+    display: block;
+    height: 3px;
+    margin: 10px 0 0 0;
+    position: relative;
+    width: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-section1 p
+{
+    margin-top: 35px;
+}
+
+#home-section1 h2:before
+{
+    background-color: #f6ba32;
+    content: '';
+    display: block;
+    height: 3px;
+    margin: 0 0 10px 0;
+    position: relative;
+    width: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-section1 h2:after
+{
+    background-color: #f6ba32;
+    content: '';
+    display: block;
+    height: 3px;
+    margin: 10px 0 0 0;
+    position: relative;
+    width: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-section2
+{
+    background-color: #25667d;
+}
+
+#home-section2 h2
+{
+    color: #ffffff;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+#home-section2 p
+{
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+#home-section3 [class*="fa fa-"]
+{
+    color: #f6ba32;
+}
+
+#home-section3 h2:before
+{
+    background-color: #f6ba32;
+    content: '';
+    display: block;
+    height: 3px;
+    margin: 0 0 10px 0;
+    position: relative;
+    width: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-section3 h2:after
+{
+    background-color: #f6ba32;
+    content: '';
+    display: block;
+    height: 3px;
+    margin: 10px 0 0 0;
+    position: relative;
+    width: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#home-section4
+{
+    background-color: #ffffff;
+    margin-bottom: 92px;
+}
+
+#home-section4 h2:before
+{
+    background-color: #f6ba32;
+    content: '';
+    display: block;
+    height: 3px;
+    margin: 0 0 10px 0;
+    position: relative;
+    width: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-section4 h2:after
+{
+    background-color: #f6ba32;
+    content: '';
+    display: block;
+    height: 3px;
+    margin: 10px 0 0 0;
+    position: relative;
+    width: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-section4 .btn-primary
+{
+    background-color: #25667d;
+}
+
+#home-section4 .btn-primary:hover
+{
+    background-color: #1e5467;
+}
+
+#home-section5
+{
+    background-image: url('../images/city-cars-traffic-lights.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+footer
+{
+    background-color: #000;
+}
+
+footer ul
+{
+    list-style: none;
+    text-align: Center;
+}
+
+footer ul li
+{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+footer ul li a
+{
+    color: #fff;
+    font-size: 2em;
+}
+
+footer ul li a:hover
+{
+    color: #f6ba32;
+    text-decoration: none;
+}
+
